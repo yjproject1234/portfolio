@@ -716,7 +716,19 @@ h6 {
 	.skills img {
 		width: 10%;
 	}
-	
+	.center{
+		display: none;
+	}
+	.resume_box{
+		padding:10px 20px 15px ;
+		background-image: none;
+		background-color: #FFFBF3;
+		position: static;
+		margin-bottom: 30px;
+	}
+	.resume_box h5{
+		display: block;
+	}
 }
 
 /* 749px 이하 */
@@ -762,19 +774,8 @@ h6 {
 	.skills img {
         width: 15%;
     }
-	.resume_box{
-		padding:10px 20px 15px ;
-		background-image: none;
-		background-color: #FFFBF3;
-		position: static;
-		margin-bottom: 30px;
-	}
-	.resume_box h5{
-		display: block;
-	}
-	.center{
-		display: none;
-	}
+
+	
 	
 }
 
